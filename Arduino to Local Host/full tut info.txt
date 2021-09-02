@@ -1,0 +1,24 @@
+Step-wise approach for sending and receiving data from phpmyadmin database in your Arduino IDE local variable. The desired line can then be extracted from the local variable using String functions. 
+
+Arduino code:
+http://txt.do/dhux3
+
+info.php file (for sending data):
+http://txt.do/dhux8
+
+tryjson.php file (for receiving data):
+http://txt.do/dhug1
+
+In my final year project, I needed to send and receive data to and from my phpMyAdmin database which I found very hard to accomplish. So I decided to make a video of it so that others don't have to struggle much.
+
+In this, I've shown the simplest way of how to create phpmyadmin database using arduino and ethernet shield. When you create phpmyadmin database you will need xampp. I've shown in the video where to download it from. It includes php and mysql as well which are needed to create a phpmyadmin database.
+
+Before starting to follow the tutorial video, you need to mount your ethernet shield on the arduino and connect the module to the PC with USB cable and a straight RJ45 cable. You also need an internet connection and share its network with the ethernet in network and sharing centre.
+
+I've already created and written the code files that are required to create the phpmyadmin database. You can copy them from up above in the description. Video also features the process to send data to phpmyadmin database and receive data from phpmyadmin database via local server on your serial monitor in Arduino IDE.
+
+The process for sending and receiving data from phpMyAdmin database is explained in detail. I have used JSON (Java Script Object Notation) in the PHP file for retrieving the data as I could not find any other way of sending and receiving data from phpMyAdmin database. Both the PHP files have been edited in notepad++. 
+
+The softwares required for sending and receiving data from phpMyAdmin database using Arduino are XAMPP, Arduino IDE and notepad++. The hardwares required for sending and receiving data from phpMyAdmin database are arduino UNO board, Ethernet shield W5100 and your sensors(if any).
+
+There was no clear tutorial on youtube for sending and receiving data from phpMyAdmin database using Arduino so I had to struggle a lot in completing the project. I had to divide the project into parts and find the tutorials for each one of them. So I decided to make a video purely dedicated to sending and receiving data from phpMyAdmin database using Arduino so that anyone else like me who is looking for sending and receiving data from phpMyAdmin database using Arduino finds everything he needs in one place.
